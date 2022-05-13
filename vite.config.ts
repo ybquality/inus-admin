@@ -9,7 +9,7 @@ import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 // https://vitejs.dev/config/
 export default defineConfig({
   server:{
-    port:8000,//端口号配置
+    //port:8000,//端口号配置
     //跨域
     proxy: {
       "/api":"http://47.112.191.36:3001"
