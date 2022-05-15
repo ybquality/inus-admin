@@ -20,13 +20,14 @@
           </el-form-item>
 
           <el-form-item prop="title" label="内容">
-              
+              <edit/>
           </el-form-item>
       </el-form>
   </div>
 </template>
 
 <script setup lang="ts">
+import edit from "../../components/article/edit.vue";
 
 </script>
 

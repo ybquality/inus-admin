@@ -70,7 +70,7 @@ import axios from "../utils/http";//axios封装
 import { useRouter } from "vue-router";//引入路由
 
 import { FormInstance } from 'element-plus'
-import { ElSteps } from "element-plus/lib/components";
+// import { ElSteps } from "element-plus/lib/components";
 const ruleFormRef = ref<FormInstance>()
 const router = useRouter();//使用路由
 

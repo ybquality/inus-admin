@@ -62,7 +62,7 @@ import { useAuthStore } from "../store";
 
 import jwt_decode from "jwt-decode";//token解析模块
 import { FormInstance } from 'element-plus'
-import { ElSteps } from "element-plus/lib/components";
+// import { ElSteps } from "element-plus/lib/components";
 const ruleFormRef = ref<FormInstance>()
 const router = useRouter();//使用路由
 const store = useAuthStore();//状态管理

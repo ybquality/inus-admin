@@ -5,7 +5,6 @@ import { createPinia } from "pinia";
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 
 const app = createApp(App)
-
 // 自动引入elementicon图标
 for (const name in ElementPlusIconsVue) {
   app.component(name,(ElementPlusIconsVue as any)[name])
