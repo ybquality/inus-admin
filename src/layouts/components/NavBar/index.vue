@@ -24,7 +24,8 @@
 
 
       <div class="nav-avatar">
-        <el-avatar :icon="Avatar" :src="store.user.avatar"/>
+        <!-- 这里原本是:icon="" 但是出现警告 -->
+        <el-avatar icon="Avatar" :src="store.user.avatar"/>
       </div>
     </div>
 

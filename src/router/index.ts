@@ -59,7 +59,7 @@ const routes:Array<RouteRecordRaw> = [
             {
                 path: 'articleAdd',
                 name: 'articleAdd',
-                component: () => import('@/views/article/articleAdd.vue'),
+                component: () => import('@/views/article/ArticleAdd.vue'),
                 meta: {
                     title: '新增文章'
                 }

@@ -2,7 +2,7 @@
   <!-- 文章列表标题 -->
   <div class="article-head">
     <div class="article-head-wrapper">
-      <div class="article-head-title"> 文章列表 ({{count}}) </div>
+      <div class="article-head-title">文章列表 ({{count}}) </div>
       <div class="article-extra">
         <el-button type="primary" @click="handleAdd">新增文章</el-button>
       </div>
